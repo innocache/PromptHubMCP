@@ -1,0 +1,9 @@
+[project]
+name = "prompthubmcp"
+version = "0.1.0"
+description = "A MCP server for reusable prompts"
+readme = "README.md"
+requires-python = ">=3.11.9"
+dependencies = [
+    "fastmcp"
+]
