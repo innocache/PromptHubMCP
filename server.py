@@ -62,7 +62,7 @@ async def getprompt(prompt_name: str) -> str:
     """Fetch a specific prompt by name."""
     # Get all markdown files in prompts directory
     print("Fetching prompt...")
-    prompts_dir = Path("prompts")
+    prompts_dir = Path(".github/prompts")
     if not prompts_dir.exists():
         return "Error: Prompts directory not found"
         
